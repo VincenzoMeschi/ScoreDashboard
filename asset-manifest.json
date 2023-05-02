@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ScoreDashboard/static/css/main.46b63f5f.css",
-    "main.js": "/ScoreDashboard/static/js/main.3e5da713.js",
+    "main.js": "/ScoreDashboard/static/js/main.9601a655.js",
     "static/media/fa-solid-900.ttf": "/ScoreDashboard/static/media/fa-solid-900.e615bbcb258550973c16.ttf",
     "static/media/fa-brands-400.ttf": "/ScoreDashboard/static/media/fa-brands-400.b823fc0dbb5a5f0c21bb.ttf",
     "static/media/fa-solid-900.woff2": "/ScoreDashboard/static/media/fa-solid-900.59edf72a325ac2048d60.woff2",
@@ -18,10 +18,10 @@
     "index.html": "/ScoreDashboard/index.html",
     "static/media/Engaged_Logo.svg": "/ScoreDashboard/static/media/Engaged_Logo.7a3af9b272a78e3a5abda399522b13e8.svg",
     "main.46b63f5f.css.map": "/ScoreDashboard/static/css/main.46b63f5f.css.map",
-    "main.3e5da713.js.map": "/ScoreDashboard/static/js/main.3e5da713.js.map"
+    "main.9601a655.js.map": "/ScoreDashboard/static/js/main.9601a655.js.map"
   },
   "entrypoints": [
     "static/css/main.46b63f5f.css",
-    "static/js/main.3e5da713.js"
+    "static/js/main.9601a655.js"
   ]
 }

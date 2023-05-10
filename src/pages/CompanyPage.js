@@ -31,7 +31,7 @@ const CompanyPage = () => {
     .sort((a, b) => a.scores.cultureScore - b.scores.cultureScore)
 
   const {
-    coltureScore,
+    cultureScore,
     riskScore,
     behaviorScore,
     knowledgeScore,
@@ -44,15 +44,15 @@ const CompanyPage = () => {
       <div className='grid grid-cols-1 lg:grid-cols-4 gap-3'>
         <div className='lg:col-span-3 grid grid-cols-1 lg:grid-cols-3 gap-3'>
           <div className='card rounded-lg p-4 text-white'>
-            <SecurityCultureStatus score={coltureScore} />
+            <SecurityCultureStatus score={cultureScore} />
           </div>
 
           <div className='card rounded-lg p-4 text-white'>
-            <CultureScore score={coltureScore} />
+            <CultureScore score={cultureScore} />
           </div>
 
           <div className='card rounded-lg p-4 text-white'>
-            <RiskScore score={100 - coltureScore} />
+            <RiskScore score={100 - cultureScore} />
           </div>
 
           <div className='lg:col-span-2 card px-4 pb-4'>

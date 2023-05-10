@@ -11,9 +11,9 @@ const App = () => {
     <Theme>
       <Router>
         <Routes>
-          <Route path="/ScoreDashboard/" element={<HomePage />} />
-          <Route path="/ScoreDashboard/company/:id" element={<CompanyPage />} />
-          <Route path="/ScoreDashboard/employee/:id" element={<EmployeePage />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/company/:id" element={<CompanyPage />} />
+          <Route path="/employee/:id" element={<EmployeePage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>

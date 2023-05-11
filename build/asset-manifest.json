@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/ScoreDashboard/static/css/main.dd6f513c.css",
-    "main.js": "/ScoreDashboard/static/js/main.c1afcb29.js",
+    "main.css": "/ScoreDashboard/static/css/main.46b63f5f.css",
+    "main.js": "/ScoreDashboard/static/js/main.b069dd7c.js",
+    "static/js/787.28cb0dcd.chunk.js": "/ScoreDashboard/static/js/787.28cb0dcd.chunk.js",
     "static/media/fa-solid-900.ttf": "/ScoreDashboard/static/media/fa-solid-900.e615bbcb258550973c16.ttf",
     "static/media/fa-brands-400.ttf": "/ScoreDashboard/static/media/fa-brands-400.b823fc0dbb5a5f0c21bb.ttf",
     "static/media/fa-solid-900.woff2": "/ScoreDashboard/static/media/fa-solid-900.59edf72a325ac2048d60.woff2",
@@ -10,6 +11,7 @@
     "static/media/defender.png": "/ScoreDashboard/static/media/defender.d36e99c98e8cc75b1538.png",
     "static/media/vulnerable.png": "/ScoreDashboard/static/media/vulnerable.e4312ee4d4984d06932a.png",
     "static/media/fa-regular-400.woff2": "/ScoreDashboard/static/media/fa-regular-400.0caf4c6cf244a90efcc5.woff2",
+    "static/media/ufo-dark.svg": "/ScoreDashboard/static/media/ufo-dark.1fe6a0e65337596ceff8fe75f38c9441.svg",
     "static/media/hunter.png": "/ScoreDashboard/static/media/hunter.5f56393da1387c8941a0.png",
     "static/media/heigh-risk.png": "/ScoreDashboard/static/media/heigh-risk.46857c73556fc5b364fb.png",
     "static/media/pacifist.png": "/ScoreDashboard/static/media/pacifist.e05f87d574b9ed495d88.png",
@@ -17,11 +19,12 @@
     "static/media/fa-v4compatibility.woff2": "/ScoreDashboard/static/media/fa-v4compatibility.afac89562a5301459069.woff2",
     "index.html": "/ScoreDashboard/index.html",
     "static/media/Engaged_Logo.svg": "/ScoreDashboard/static/media/Engaged_Logo.7a3af9b272a78e3a5abda399522b13e8.svg",
-    "main.dd6f513c.css.map": "/ScoreDashboard/static/css/main.dd6f513c.css.map",
-    "main.c1afcb29.js.map": "/ScoreDashboard/static/js/main.c1afcb29.js.map"
+    "main.46b63f5f.css.map": "/ScoreDashboard/static/css/main.46b63f5f.css.map",
+    "main.b069dd7c.js.map": "/ScoreDashboard/static/js/main.b069dd7c.js.map",
+    "787.28cb0dcd.chunk.js.map": "/ScoreDashboard/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd6f513c.css",
-    "static/js/main.c1afcb29.js"
+    "static/css/main.46b63f5f.css",
+    "static/js/main.b069dd7c.js"
   ]
 }

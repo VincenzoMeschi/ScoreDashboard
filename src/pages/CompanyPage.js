@@ -31,14 +31,12 @@ const CompanyPage = () => {
     .sort((a, b) => a.scores.cultureScore - b.scores.cultureScore)
 
   const {
-    cultureScore,
+    coltureScore,
     riskScore,
     behaviorScore,
     knowledgeScore,
     engagementScore,
   } = getScoresFromEmployee(employees)
-
-  riskScore = 100 - cultureScore
 
   return (
     <Layout>
@@ -46,15 +44,15 @@ const CompanyPage = () => {
       <div className='grid grid-cols-1 lg:grid-cols-4 gap-3'>
         <div className='lg:col-span-3 grid grid-cols-1 lg:grid-cols-3 gap-3'>
           <div className='card rounded-lg p-4 text-white'>
-            <SecurityCultureStatus score={cultureScore} />
+            <SecurityCultureStatus score={coltureScore} />
           </div>
 
           <div className='card rounded-lg p-4 text-white'>
-            <CultureScore score={cultureScore} />
+            <CultureScore score={coltureScore} />
           </div>
 
           <div className='card rounded-lg p-4 text-white'>
-            <RiskScore score={riskScore} />
+            <RiskScore score={100 - coltureScore} />
           </div>
 
           <div className='lg:col-span-2 card px-4 pb-4'>

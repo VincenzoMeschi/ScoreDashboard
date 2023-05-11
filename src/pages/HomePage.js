@@ -21,12 +21,14 @@ const HomePage = () => {
   )
 
   const {
-    coltureScore,
+    cultureScore,
     riskScore,
     behaviorScore,
     knowledgeScore,
     engagementScore,
   } = getScoresFromEmployee(employees)
+
+  riskScore = 100 - cultureScore
 
   return (
     <Layout>
@@ -34,15 +36,15 @@ const HomePage = () => {
       <div className='grid grid-cols-1 lg:grid-cols-4 gap-3'>
         <div className='lg:col-span-3 grid grid-cols-1 lg:grid-cols-3 gap-3'>
           <div className='card rounded-lg p-4 text-white'>
-            <SecurityCultureStatus score={coltureScore} />
+            <SecurityCultureStatus score={cultureScore} />
           </div>
 
           <div className='card rounded-lg p-4 text-white'>
-            <CultureScore score={coltureScore} />
+            <CultureScore score={cultureScore} />
           </div>
 
           <div className='card rounded-lg p-4 text-white'>
-            <RiskScore score={100 - coltureScore} />
+            <RiskScore score={riskScore} />
           </div>
 
           <div className='lg:col-span-2 card px-4 pb-4'>
@@ -70,7 +72,7 @@ const HomePage = () => {
         </div>
 
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-3'>
-          {/* Behavior | KNOLEDGE | ENGAGEMENT - PPROGRESSBAR  */}
+          {/* Behavior | KNOWLEDGE | ENGAGEMENT - PPROGRESSBAR  */}
           <div className='grid grid-cols-1 gap-3'>
             <ActivityProgressBar title='Behavior' progress={behaviorScore} />
             <ActivityProgressBar title='Knowledge' progress={knowledgeScore} />

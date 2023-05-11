@@ -38,6 +38,8 @@ const CompanyPage = () => {
     engagementScore,
   } = getScoresFromEmployee(employees)
 
+  riskScore = 100 - cultureScore
+
   return (
     <Layout>
       {/* Culture Status | Culture Score | Risk Score | Security Culture Timeline | Top Companies | Top Employees */}
@@ -52,7 +54,7 @@ const CompanyPage = () => {
           </div>
 
           <div className='card rounded-lg p-4 text-white'>
-            <RiskScore score={100 - cultureScore} />
+            <RiskScore score={riskScore} />
           </div>
 
           <div className='lg:col-span-2 card px-4 pb-4'>

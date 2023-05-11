@@ -34,7 +34,9 @@ const EmployeePage = () => {
 
   let cultureScore = Math.floor(
     (riskScore + behaviorScore + knowledgeScore) / 3
+  
   )
+  riskScore = 100 - cultureScore;
 
   return (
     <Layout>
@@ -50,7 +52,7 @@ const EmployeePage = () => {
           </div>
 
           <div className='card rounded-lg p-4 text-white'>
-            <RiskScore score={100 - cultureScore} />
+            <RiskScore score={riskScore} />
           </div>
 
           <div className='lg:col-span-2 card px-4 pb-4'>

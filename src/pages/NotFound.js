@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import NotfoundIcon from './../assets/images/illustrations/ufo-dark.svg'
+import NotfoundIcon from './../assets/images/engaged/logos/Engaged_Logo.svg'
 
 const NotFound = () => {
   return (

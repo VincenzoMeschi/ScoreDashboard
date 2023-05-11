@@ -3,7 +3,6 @@ import { createRoot } from 'react-dom/client'
 import { Provider } from 'react-redux'
 import { store } from './app/store'
 import App from './App'
-import reportWebVitals from './reportWebVitals'
 import './index.css'
 import { Toaster } from 'react-hot-toast'
 
@@ -18,5 +17,3 @@ root.render(
   </Provider>
   // </React.StrictMode>
 )
-
-reportWebVitals()
